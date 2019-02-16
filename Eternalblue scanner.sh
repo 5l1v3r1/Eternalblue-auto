@@ -19,7 +19,7 @@ sleep 6
 read -p 'Launch auto eternalblue?(Y/n)' answer
 if [[ ( answer=="Y" ) || ( answer=="y" ) ]]; then
 cd ..
-eternalblue auto.sh
+./eternalblue auto.sh
 else
 echo "Goodbye :)"
 fi

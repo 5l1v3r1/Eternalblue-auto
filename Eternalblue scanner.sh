@@ -22,3 +22,4 @@ cd ..
 eternalblue auto.sh
 else
 echo "Goodbye :)"
+fi

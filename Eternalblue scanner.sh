@@ -19,7 +19,7 @@ sleep 2
 read -p 'Launch auto eternalblue?(Y/n)' answer
 if [[ ( answer=="Y" ) || ( answer=="y" ) ]]; then
 cd ..
-./Eternalblue auto.sh
+./Eternalblue auto exploit.sh
 else
 echo "Goodbye :)"
 fi

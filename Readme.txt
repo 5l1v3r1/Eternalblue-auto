@@ -13,6 +13,6 @@ There are some scripts which will help you in testing exploit eternalblue_double
  
 Install:
 cd Eternalblue-auto/
-chmod +x Eternalblue\ auto\ exploit.sh || chmod +x Eternalblue\ scanner.sh
+chmod +x Eternalblue\ auto\ exploit.sh && chmod +x Eternalblue\ scanner.sh
 Done!
 My VK- https://vk.com/zert12

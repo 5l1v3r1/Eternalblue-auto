@@ -15,4 +15,3 @@ Install:
 cd Eternalblue-auto/
 chmod +x Eternalblue\ auto\ exploit.sh && chmod +x Eternalblue\ scanner.sh
 Done!
-My VK- https://vk.com/zert12
